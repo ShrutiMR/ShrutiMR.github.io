@@ -3220,49 +3220,16 @@ input, select, textarea {
 
 	}
 
-/* @media screen and (min-width: 568px) {
-	.cards-wrapper{
-		display: flex;
-	}
+/* .cards-wrapper {
+	display: flex;
 } */
 
-.cards-wrapper {
-	display: flex;
-	height: 500px;
-	width: 500px;
-}
-
 .card {
-	/* background-image: url(images/overlay.png); */
-	margin: 2rem 4rem;
+	display: flex;
+	margin: 0 0.5rem;
 	width: 100%;
-	/* height: 100%; */
-}
-
-.card-title {
-	padding-bottom: 10px;
 }
 
 .image-wrapper {
-	height: 30vw;
-	margin: 0 auto 2rem auto;
-	/* display: flex;
-	align-items: center;
-	justify-content: center; */
-}
-
-/* @media screen and (max-width: 567px) {
-	.card:not(:first-child){
-		display: none;
-	}
-} */
-
-.image-wrapper img{
-	max-width: 100%;
-	max-height: 100%;
-}
-
-
-.list-group-item {
-	background-image: url(images/overlay.png);
+	width: 20vw;
 }
