@@ -98,20 +98,56 @@
 		// Lightbox gallery.
 			$window.on('load', function() {
 
-				// $('#two').poptrox({
-				// 	usePopupCaption: true,
-				// 	usePopupNav: true,
-				// 	popupPadding: 0
+				// $('.open-popup').magnificPopup({ 
+				// 	type: 'inline', 
+	  
+				// 	// Fixed position will be used 
+				// 	fixContentPos: true, 
+	  
+				// 	// Since disabled, Magnific Popup 
+				// 	// will not put close button 
+				// 	// inside content of popup 
+				// 	closeBtnInside: false, 
+				// 	preloader: false, 
+	  
+				// 	// Delay in milliseconds before 
+				// 	// popup is removed 
+				// 	removalDelay: 160, 
+	  
+				// 	// Class that is added to 
+				// 	// popup wrapper and background 
+				// 	mainClass: 'mfp-fade' 
+				// });
+
+				// $('#work-content').magnificPopup({
+				// 	delegate: 'a',
+				// 	removalDelay: 500, //delay removal by X to allow out-animation
+				// 	callbacks: {
+				// 	  beforeOpen: function() {
+				// 		 this.st.mainClass = this.st.el.attr('data-effect');
+				// 	  }
+				// 	},
+				// 	midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
 				//   });
 
+				// $('.work-content').magnificPopup({
+				// 	type: 'inline',
+				// 	closeBtnInside: true,
+				// 	callbacks: {
+				// 	  beforeOpen: function () {
+				// 		this.st.mainClass = 'mfp-zoom-in';
+				// 	  }
+				// 	}
+				// });
+
 				$('#two').poptrox({
-					// caption: function($a) { return $a.next('h3').text(); },
+					caption: function($a) { return $a.next('h3').text(); },
 					overlayColor: '#2c2c2c',
 					overlayOpacity: 0.85,
 					popupCloserText: '',
 					popupLoaderText: '',
 					selector: '.work-item a.image',
-					usePopupCaption: false,
+					usePopupCaption: true,
 					usePopupDefaultStyling: false,
 					usePopupEasyClose: false,
 					usePopupNav: true,
