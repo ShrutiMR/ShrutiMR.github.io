@@ -98,6 +98,11 @@
 		// Lightbox gallery.
 			$window.on('load', function() {
 
+				// $('#two').poptrox({
+				// 	usePopupCaption: true,
+				// 	usePopupNav: true,
+				// 	popupPadding: 0
+				//   });
 
 				$('#two').poptrox({
 					// caption: function($a) { return $a.next('h3').text(); },
